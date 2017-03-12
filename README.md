@@ -6,9 +6,9 @@ For more information visit __[InvoicePlane.com](https://invoiceplane.com)__ or t
 
 ===
 
-## How to tnstall a new Theme
+### How to install a new Theme
 
-### InvoicePlane 1
+#### InvoicePlane 1
 
 Copy the folder of the theme you want to use into the `/assets` directory of your InvoicePlane application. This is how the folder structure should look like:
 
@@ -27,7 +27,7 @@ Copy the folder of the theme you want to use into the `/assets` directory of you
 
 ===
 
-## Develop new Themes
+### Develop new Themes
 
 #### InvoicePlane 1
 
@@ -35,7 +35,7 @@ See [v1/DEVELOPMENT.md](v1/DEVELOPMENT.md) for further instructions.
 
 ===
 
-## Submit a new Theme
+### Submit a new Theme
 
 1. Make sure you followed the guidelines for developing a new InvoicePlane theme. They can be found in the development guides.
 2. Build your theme to minify the assets and commit the latest version of your themes CSS.
@@ -56,4 +56,3 @@ See [v1/DEVELOPMENT.md](v1/DEVELOPMENT.md) for further instructions.
 
 > _The name 'InvoicePlane' and the InvoicePlane logo are both copyright by Kovah.de and InvoicePlane.com
 and their usage is restricted! For more information visit invoiceplane.com/license-copyright_
-

@@ -2,7 +2,7 @@
 
 You want to develop a new theme for InvoicePlane? Awesome! This guide will help you to quickly create your own theme and publish it in the InvoicePlane Theme repository. 
 
-## Theme concept introduction
+### Theme concept introduction
 
 Themes do not override the standard theme but replace it. Themes use Sass as the main language and rely on some requirements like Bootstrap.
 
@@ -32,7 +32,7 @@ If you think a specific part should be changed, join the chat or create a new to
 
 ===
 
-## Development requirements
+### Development requirements
 
 To build your own theme you need to fulfill the following requirements:
 
@@ -40,7 +40,7 @@ To build your own theme you need to fulfill the following requirements:
     We do recommend using the latest stable version of Node.js and npm.
 * Have `grunt-cli` installed globally for npm
 
-## Theme File structure
+### Theme File structure
 
 A theme consists of many different files. All files are explained in this chapter so you know what you have to modify and how.
 
@@ -101,7 +101,7 @@ The `css` directory contains the compiled stylesheets. You don't and shoudln't c
 
 ===
 
-## Guidelines for developing a theme
+### Guidelines for developing a theme
 
 Before you start to work on your theme please read these guidelines as violating them may lead to a rejection for the theme repository.
 
@@ -113,13 +113,13 @@ Before you start to work on your theme please read these guidelines as violating
 
 ===
 
-## Developing a new theme
+### Developing a new theme
 
 The development of a theme is done directly within the InvoicePlane application. Please clone the repository to your machine or download the package from our website. After that, run the command `npm install` in the root directory of the InvoicePlane app. This will install all needed components to build the theme.
 
 You may copy an existing theme (except the `core` folder) and modify it to match your needs. Starting from scratch is not recommended.
 
-### Using Grunt
+#### Using Grunt
 
 Grunt, the task runner used for the theme compilation. There are two tasks available:
 
@@ -128,7 +128,7 @@ Grunt, the task runner used for the theme compilation. There are two tasks avail
 * `grunt build`
     The grunt build command is needed to prepare your theme styles for release. The command will compile all styles and compress them to save space. It will also delete any source maps as they are usually not needed in production environments.
 
-### Publishing your theme
+#### Publishing your theme
 
 We do recommend to add your theme to this theme repository. It will be and remain the main storage point for themes and may be integrated into the InvoicePlane website. To add your theme, read the corresponding section in the [main readme](/README.md).
 
@@ -136,7 +136,7 @@ After adding your theme to the repository, you may also promote it in the Invoic
 
 ===
 
-## Questions or need help?
+### Questions or need help?
 
 [![Community Forums](https://img.shields.io/badge/Help%3A-Community%20Forums-429ae1.svg)](https://community.invoiceplane.com/)  
 [![Issue Tracker](https://img.shields.io/badge/Development%3A-Issue%20Tracker-429ae1.svg)](https://development.invoiceplane.com/)  
