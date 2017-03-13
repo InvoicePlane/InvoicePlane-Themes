@@ -1,0 +1,8 @@
+TITLE='IP Metro'
+DESCRIPTION='A more Metro-like interface for InvoicePlane.'
+VERSION='1.0.0'
+AUTHOR='Kovah.de'
+AUTHOR_WEBSITE='https://kovah.de/'
+LICENSE='MIT'
+COMPATIBLE_WITH='1.5.0'
+TESTED_WITH='1.5.0'
