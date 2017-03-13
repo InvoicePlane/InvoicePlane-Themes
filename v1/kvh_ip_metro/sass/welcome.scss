@@ -1,0 +1,46 @@
+/*
+|   =========================================================
+|   InvoicePlane
+|   Sass Stylesheet
+|   for welcome screen and setup process
+|   =========================================================
+*/
+
+@import "ip_variables";
+@import "variables";
+
+/*
+|   =========================================================
+|   Import Bootstrap and other assets
+|   =========================================================
+*/
+
+// Dependencies
+@import "../../core/scss/bootstrap-welcome";
+@import "../../../node_modules/font-awesome/scss/font-awesome";
+@import "../../../node_modules/select2/src/scss/core";
+
+/*
+|   =========================================================
+|   Import InvoicePlane Setup Styles
+|   =========================================================
+*/
+
+@import "../../core/scss/welcome";
+
+/*
+|   =========================================================
+|   Custom Metro Styles
+|   =========================================================
+*/
+
+@import "includes/fonts";
+
+.label,
+.datepicker {
+  border-radius: 0;
+}
+
+.dropdown-menu {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}
