@@ -60,17 +60,24 @@ A theme consists of many different files. All files are explained in this chapte
 #### theme_indentifier.theme
 The `theme_indentifier.theme` file is the main file of your theme and absolutely needed for your theme to be accepted in the theme repository and to be selectable in the InvoicePlane settings. The file consists of various information about the theme:
 
-    TITLE='Theme Name'
-    DESCRIPTION='Description for your InvoicePlane theme.'
-    AUTHOR='Your Name / Company'
-    AUTHOR_WEBSITE='https://your-website.com'
-    LICENSE='License Name or Identifier'
+| Setting           | Description                                               | Example Value                         |
+| ----------------- | --------------------------------------------------------- | ------------------------------------- | 
+| TITLE             | The title that will show up in the InvoicePlane settings  | `InvoicePlane Blue`                   |
+| DESCRIPTION       | Short description about the theme                         | `A more colorful InvoicePlane theme.` |
+| VERSION           | The version of your theme, should use semver              | `InvoicePlane Blue`                   |
+| AUTHOR            | Your name, pseudonym or company name                      | `InvoicePlane Developers`             |
+| AUTHOR_WEBSITE    | Your website, must start with http:// or https://         | `https://invoiceplane.com/`           |
+| LICENSE           | The license for the theme                                 | `MIT`                                 |
+| REQUIRES          | Minimum version of InvoicePlane required for this theme   | `InvoicePlane Blue`                   |
+| TESTED_WITH       | Highest version of InvoicePlane the theme was tested with | `1.5.0`                               |
 
 The following information **must** be provided:
 
-* Title
-* Author
-* License
+* TITLE
+* AUTHOR
+* LICENSE
+* REQUIRES
+* TESTED_WITH
 
 Please notice that you have to surround all information with single quotes.
 
