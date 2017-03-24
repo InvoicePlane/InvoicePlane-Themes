@@ -8,7 +8,7 @@ Themes do not override the standard theme but replace it. Themes use Sass as the
 
 #### Theme structure
 
-All themes use the same structure. First, the variables are imported. The are used by Bootstrap, the core styles and third-party plugins like Select2.
+All themes use the same structure. First, the variables are imported. They are used by Bootstrap, the core styles and third-party plugins like Select2.
 
     @import "ip_variables";
     @import "variables";
@@ -26,9 +26,9 @@ Last but no least the InvoicePlane core styles are loaded.
     @import "../../core/scss/core";
 
 #### Warning!
-Do **not** change this structure and the imports, as missing styles may break the application completely! If you want to add any styles or override existing styles, add them **below the core import**. We will not support any broken themes that remove, replace or change any core files.
+Do **not** change this structure and the imports, as missing styles may break the application completely! If you want to add any styles or override existing styles, add them **below the core import**. We will not support any broken themes that removed, replaced or changed any core files.
 
-If you think a specific part should be changed, join the chat or create a new topic in the community forums.
+If you think the core should be changed, join the development chat or create a new topic in the community forums.
 
 ---
 
@@ -68,7 +68,7 @@ The `theme_indentifier.theme` file is the main file of your theme and absolutely
 | AUTHOR            | Your name, pseudonym or company name                      | `InvoicePlane Developers`             |
 | AUTHOR_WEBSITE    | Your website, must start with http:// or https://         | `https://invoiceplane.com/`           |
 | LICENSE           | The license for the theme                                 | `MIT`                                 |
-| REQUIRES          | Minimum version of InvoicePlane required for this theme   | `InvoicePlane Blue`                   |
+| REQUIRES          | Minimum version of InvoicePlane required for this theme   | `1.5.0`                               |
 | TESTED_WITH       | Highest version of InvoicePlane the theme was tested with | `1.5.0`                               |
 
 The following information **must** be provided:
@@ -113,10 +113,10 @@ The `css` directory contains the compiled stylesheets. You don't and shoudln't c
 Before you start to work on your theme please read these guidelines as violating them may lead to a rejection for the theme repository.
 
 * The theme identifier must not contain the string `invoiceplane` in any way. Only official themes like `invoiceplane_default` are allowed to use the string in its identifier. However, using `ip` is okay.
-* Choose your identifier wisely. It should not be a very generic string like `material` or `metro`. Add you name, pseudonym or company name to the string like this: `john_doe_material`, `` or ``
+* Choose your identifier wisely. It should not be a very generic string like `material` or `metro`. Add you name, pseudonym or company name to the string like this: `john_doe_material` or `companyname_ip_metro`.
 * Make sure you provide detailed information about the theme and yourself in the .theme file.
-* Do not use any vendor prefixes like `-moz-border-radius` as they are automatically added in the compilation process.
-* Please add at least one screenshot of your theme with the name `screenshot.jpg` or `screenshot.png`. to the theme root folder. The screenshot should show the dashboard. Feel free to add additional screenshots but pleas name them `screenshot_2.jpg`, `screenshot_3.jpg` and so on.
+* Do not use any vendor prefixes like `-moz-border-radius` as they are _automatically added_ in the compilation process.
+* Please add at least 1 (one) screenshot of your theme with the name `screenshot.jpg` or `screenshot.png` to the theme root folder. The screenshot must show the dashboard. Feel free to add additional screenshots but please name them `screenshot_2.jpg`, `screenshot_3.jpg` and so on.
 
 ---
 
@@ -128,11 +128,11 @@ You may copy an existing theme (except the `core` folder) and modify it to match
 
 #### Using Grunt
 
-Grunt, the task runner used for the theme compilation. There are two tasks available:
+Grunt is the task runner used for the theme compilation. There are two tasks available:
 
-* `grunt dev`
-    This command is used to develop a theme. It will automatically run an initial compilation and then start watching the theme files. If oyu change a theme file Grunt will automatically recompile the theme so you can continue working without interruptions. To cancel the watch process, use `ctrl` + `c`. The development command will not compress any CSS files to make debugging easier. Source maps are generated too.
-* `grunt build`
+* `grunt dev`  
+    This command is used to develop a theme. It will automatically run an initial compilation and then start watching the theme files. If you change a theme file Grunt will automatically recompile the theme so you can continue working without interruptions. To cancel the watch process, use `ctrl` + `c`. The development command will not compress any CSS files to make debugging easier. Source maps are generated too.
+* `grunt build`  
     The grunt build command is needed to prepare your theme styles for release. The command will compile all styles and compress them to save space. It will also delete any source maps as they are usually not needed in production environments.
 
 #### Publishing your theme
