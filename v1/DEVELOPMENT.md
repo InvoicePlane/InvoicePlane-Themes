@@ -30,7 +30,7 @@ Do **not** change this structure and the imports, as missing styles may break th
 
 If you think a specific part should be changed, join the chat or create a new topic in the community forums.
 
-===
+---
 
 ### Development requirements
 
@@ -106,7 +106,7 @@ A smaller version of styles.scss that is used for the welcome screen and the set
 
 The `css` directory contains the compiled stylesheets. You don't and shoudln't change any files in this directory manually.
 
-===
+---
 
 ### Guidelines for developing a theme
 
@@ -118,7 +118,7 @@ Before you start to work on your theme please read these guidelines as violating
 * Do not use any vendor prefixes like `-moz-border-radius` as they are automatically added in the compilation process.
 * Please add at least one screenshot of your theme with the name `screenshot.jpg` or `screenshot.png`. to the theme root folder. The screenshot should show the dashboard. Feel free to add additional screenshots but pleas name them `screenshot_2.jpg`, `screenshot_3.jpg` and so on.
 
-===
+---
 
 ### Developing a new theme
 
@@ -141,7 +141,7 @@ We do recommend to add your theme to this theme repository. It will be and remai
 
 After adding your theme to the repository, you may also promote it in the InvoicePlane community forums. We have a dedicated section for theme and template sharing.
 
-===
+---
 
 ### Questions or need help?
 

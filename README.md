@@ -4,7 +4,7 @@
 InvoicePlane is a self-hosted open source application for managing your invoices, clients and payments.    
 For more information visit __[InvoicePlane.com](https://invoiceplane.com)__ or try the __[demo](https://demo.invoiceplane.com)__.
 
-===
+---
 
 ### How to install a new Theme
 
@@ -25,7 +25,7 @@ Copy the folder of the theme you want to use into the `/assets` directory of you
             │   └── ...
             └── your_new_theme.theme
 
-===
+---
 
 ### Develop new Themes
 
@@ -33,7 +33,7 @@ Copy the folder of the theme you want to use into the `/assets` directory of you
 
 See [v1/DEVELOPMENT.md](v1/DEVELOPMENT.md) for further instructions.
 
-===
+---
 
 ### Submit a new Theme
 
@@ -41,7 +41,7 @@ See [v1/DEVELOPMENT.md](v1/DEVELOPMENT.md) for further instructions.
 2. Build your theme to minify the assets and commit the latest version of your themes CSS.
 3. Submit a pull request that adds your theme to the repo. Make sure it is located in the correct folder and has a unique name.
 
-===
+---
 
 ### Support / Development / Chat
 
@@ -52,7 +52,7 @@ See [v1/DEVELOPMENT.md](v1/DEVELOPMENT.md) for further instructions.
 [![Slack Chat](https://img.shields.io/badge/Development%3A-Slack%20Chat-429ae1.svg)](https://invoiceplane-slack.herokuapp.com/)  
 [![Contribution Guide](https://img.shields.io/badge/Development%3A-Contribution%20Guide-429ae1.svg)](CONTRIBUTING.md)  
 
-===
+---
 
 > _The name 'InvoicePlane' and the InvoicePlane logo are both copyright by Kovah.de and InvoicePlane.com
 and their usage is restricted! For more information visit invoiceplane.com/license-copyright_
