@@ -1,0 +1,8 @@
+TITLE='IP Nord'
+DESCRIPTION='A more Nord-like interface for InvoicePlane'
+VERSION='1.6.1'
+AUTHOR='UnderDog'
+AUTHOR_WEBSITE='https://invoiceplane.com'
+LICENSE='MIT'
+REQUIRES='1.6.0'
+TESTED_WITH='1.6.1'
