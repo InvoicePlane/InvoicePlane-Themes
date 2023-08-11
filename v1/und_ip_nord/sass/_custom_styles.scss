@@ -41,6 +41,66 @@ body *:focus {
   margin-bottom: 0.5rem;
 }
 
-.sidebar{
-  background-color: $gray-base;
+.sidebar {
+  background-color: $gray-darker;
 }
+
+.form-control[readonly] {
+  background: lighten($gray-lighter, 5%);
+  color: $gray-dark;
+  border: 1px solid $gray-lighter;
+}
+
+.alert.alert-default {
+  background: lighten($gray-lighter, 5%);
+  color: $gray-dark;
+  border: 1px solid $gray-lighter;
+}
+
+.panel-danger {
+  background: $panel-danger-heading-bg;
+}
+
+.panel-heading.text-muted {
+  color: $gray-lighter;
+}
+
+.label.approved, .label.active {
+  background-color: darken($brand-success, 10%);
+  color: $dark-success !important;
+}
+
+.label.draft {
+  background-color: $gray-light;
+  color: lighten($gray, 10%) !important;
+}
+
+.label.overdue {
+  background-color: darken($brand-danger, 5%);
+  color: $dark-danger !important;
+}
+
+.label.paid {
+  background-color: $brand-success;
+  color: $dark-success !important;
+}
+
+.label.rejected, .label.inactive {
+  background-color: lighten($brand-danger, 5%);
+  color: lighten($dark-danger, 5%) !important;
+}
+
+.label.sent {
+  background-color: darken($brand-success, 10%);
+  color: $dark-success !important;
+}
+
+.label.viewed {
+  background-color: $brand-warning;
+  color: $dark-warning !important;
+}
+
+.sidebar li a {
+  color:$ivpl-info;
+}
+

@@ -20,10 +20,14 @@ $gray-lightest:          #e5e9f0 !default;
 
 $brand-primary:         $gray !default;
 $brand-success:         #8FBCBB !default;
+$dark-success:          #052e16 !default;
 $brand-info:            #88C0D0 !default;
-$brand-warning:         #EBCB8B !default;
-$brand-danger:          #BF616A !default;
-
+$dark-info:             #082f49 !default;
+$ivpl-info:             #54a0c6 !default;
+$brand-warning:         #EBCB8B !default; //#fed7aa / #fdba74 / #fb923c
+$dark-warning:          #8a6d3b !default;
+$brand-danger:          #BF616A !default; //#fecaca / #fca5a5 / #f87171
+$dark-danger:           #450a0a !default;
 
 //== Scaffolding
 //
@@ -176,7 +180,7 @@ $btn-danger-color:               $gray !default;
 $btn-danger-bg:                  $brand-danger !default;
 $btn-danger-border:              darken($btn-danger-bg, 5%) !default;
 
-$btn-link-disabled-color:        $gray-light !default;
+$btn-link-disabled-color:        $gray !default;
 
 // Allows for customizing button radius independently from global border radius
 $btn-border-radius-base:         $border-radius-base !default;
@@ -373,7 +377,7 @@ $navbar-padding-vertical:          (($navbar-height - $line-height-computed) / 2
 $navbar-collapse-max-height:       340px !default;
 
 $navbar-default-color:             $gray-light !default;
-$navbar-default-bg:                $gray-dark !default;
+$navbar-default-bg:                pink !default;
 $navbar-default-border:            $gray-darker !default;
 
 // Navbar links
@@ -428,18 +432,18 @@ $navbar-inverse-toggle-border-color:        $gray-dark !default;
 
 //=== Shared nav styles
 $nav-link-padding:                          10px 15px !default;
-$nav-link-hover-bg:                         $gray-base !default;
+$nav-link-hover-bg:                         $gray-dark !default;
 
 $nav-disabled-link-color:                   $gray-darker !default;
 $nav-disabled-link-hover-color:             $gray-dark !default;
 
 //== Tabs
-$nav-tabs-border-color:                     $gray-darker !default;
+$nav-tabs-border-color:                     $gray-dark !default;
 
-$nav-tabs-link-hover-border-color:          $gray-darker !default;
+$nav-tabs-link-hover-border-color:          $gray-dark !default;
 
-$nav-tabs-active-link-hover-bg:             $gray-lighter !default;
-$nav-tabs-active-link-hover-color:          $gray-dark !default;
+$nav-tabs-active-link-hover-bg:             $gray-darker !default;
+$nav-tabs-active-link-hover-color:          $gray-lighter !default;
 $nav-tabs-active-link-hover-border-color:   $gray-darker !default;
 
 $nav-tabs-justified-link-border-color:            #ddd !default;
@@ -512,13 +516,13 @@ $state-info-text:                #31708f !default;
 $state-info-bg:                  $brand-info !default;
 $state-info-border:              darken(adjust-hue($state-info-bg, -10), 7%) !default;
 
-$state-warning-text:             #8a6d3b !default;
+$state-warning-text:             $dark-warning !default;
 $state-warning-bg:               $brand-warning !default;
 $state-warning-border:           darken(adjust-hue($state-warning-bg, -10), 5%) !default;
 
-$state-danger-text:              #a94442 !default;
+$state-danger-text:              $dark-danger !default;
 $state-danger-bg:                $brand-danger !default;
-$state-danger-border:            darken(adjust-hue($state-danger-bg, -10), 5%) !default;
+$state-danger-border:            darken(adjust-hue($state-danger-bg, -10), 25%) !default;
 
 
 //== Tooltips
@@ -722,7 +726,7 @@ $panel-footer-bg:             $gray-dark !default;
 
 $panel-default-text:          $gray-light !default;
 $panel-default-border:        $gray-lighter !default;
-$panel-default-heading-bg:    $gray-dark !default;
+$panel-default-heading-bg:    $gray-darker !default;
 
 $panel-primary-text:          $gray-light !default;
 $panel-primary-border:        $brand-primary !default;
