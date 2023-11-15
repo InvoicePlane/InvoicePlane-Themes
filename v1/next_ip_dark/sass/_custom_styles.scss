@@ -1,0 +1,111 @@
+/*
+|   =========================================================
+|   Custom styles
+|   =========================================================
+*/
+
+a:hover, a:active, a:focus {
+  outline: 0;
+  text-decoration: none;
+}
+
+body *:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.form-control, .panel {
+  box-shadow: none;
+}
+
+#item_table {
+  .input-group {
+    padding-bottom: 0.5rem;
+  }
+
+  .ig-addon-aligned {
+    width: 10rem;
+    text-align: right;
+  }
+
+  select {
+    padding-left: 6px;
+  }
+
+  textarea.h135rem {
+    height: 13.5rem;
+  }
+}
+
+.mb-1 {
+  margin-bottom: 0.5rem;
+}
+
+// Added ------------------------------
+@import "bootswatch";
+
+.canceled {
+  color: #191919;
+}
+
+.sidebar li a:hover {
+  color: #fff;
+  background-color: #000;
+} 
+
+.form-control {
+  background-color: $gray;
+  color: $text-color;
+}
+
+.form-control:focus {
+  color: #fff;
+}
+
+.datepicker table {
+  background: $gray;
+}
+
+.datepicker thead tr th,
+.datepicker tfoot tr th {
+  background: $gray-dark;
+  color: $text-color;
+  border-radius: 0;
+}
+
+.datepicker .prev:hover, 
+.datepicker .datepicker-switch:hover, 
+.datepicker .next:hover, 
+.datepicker thead tr th.dow:hover,
+.datepicker table tr td.day:hover,
+.datepicker table tr td span.month:hover,
+.datepicker table tr td span.year:hover,
+.datepicker tfoot tr th:hover {
+  background: $gray-darker;
+  color: #fff;
+}
+
+select option {
+  color: $text-color;
+}
+
+// option:hover,
+// option:checked,
+// option:active,
+// option:focus {
+//     background: linear-gradient($gray-darker, $gray-darker);
+//     position: relative;    
+// }
+
+// select:focus > option:checked:before {
+//   background: $gray-darker;
+//   // color: #fff;
+// }
+// select:focus > option:checked { 
+//   background: #000 !important;
+// }
+
+// select option:checked,
+// select option:hover {
+//   box-shadow: 0 0 10px 100px yellowgreen inset;
+// }

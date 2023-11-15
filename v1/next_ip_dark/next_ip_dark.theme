@@ -1,0 +1,6 @@
+TITLE='Next IP Dark (by Verony)'
+DESCRIPTION='A more dark gray (Slate)-like theme for InvoicePlane.'
+AUTHOR='Verony.makesIT'
+LICENSE='MIT'
+REQUIRES='1.6.0'
+TESTED_WITH='1.6.1'
