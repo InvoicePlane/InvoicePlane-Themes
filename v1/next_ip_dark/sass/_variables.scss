@@ -16,7 +16,7 @@ $gray-light:             #7A8288 !default;   // #999
 $gray-lighter:           #999 !default; // #eee
 
 $brand-primary:         $gray-light !default;
-$brand-success:         #62c462 !default;
+$brand-success:         #58a959 !default; //#62c462
 $brand-info:            #5bc0de !default;
 $brand-warning:         #f89406 !default;
 $brand-danger:          #ee5f5b !default;
@@ -32,7 +32,7 @@ $body-bg:               $gray-darker !default;
 $text-color:            #C8C8C8 !default;
 
 //** Global textual link color.
-$link-color:            #fff !default;
+$link-color:            $text-color !default;
 //** Link hover color set via `darken()` function.
 $link-hover-color:      #fff !default;
 //** Link hover decoration.
@@ -149,7 +149,7 @@ $table-border-color:            darken($gray-darker, 5%) !default;
 
 $btn-font-weight:                normal !default;
 
-$btn-default-color:              #fff !default;
+$btn-default-color:              $text-color !default;
 $btn-default-bg:                 $gray-dark !default;
 $btn-default-border:             $btn-default-bg !default;
 
