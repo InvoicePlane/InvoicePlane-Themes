@@ -1,0 +1,179 @@
+/*
+|   =========================================================
+|   Custom styles
+|   =========================================================
+*/
+
+a:hover, a:active, a:focus {
+  outline: 0;
+  text-decoration: none;
+}
+
+body *:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.form-control, .panel {
+  box-shadow: none;
+}
+
+// @import "bootswatch";
+
+// Added ---------------------------------
+
+.panel-default, .details-box, #login {
+  border-color: #ddd;
+  box-shadow: 10px 10px 5px lightgray;
+}
+
+#login {
+  border-color: #66afe9;
+}
+
+.panel-danger {
+  // border-color: #ebccd1;
+  box-shadow: 10px 10px 5px lightgray;
+}
+
+.open .dropdown-menu {
+  background-color: $dropdown-bg;
+}  
+
+.open .dropdown-menu > li > a:hover, .open .dropdown-menu > li > a:focus {
+  color: #fff;
+  background-color: $brand-primary;
+}
+
+#headerbar {
+  background-color: #f5f5f5;
+}
+
+.label {
+  font-size: 82.5%;
+}
+
+.modal-content {
+  border-radius: 6px;
+}
+
+.modal-header {
+  background-color: $brand-primary;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.modal-header .panel-title {
+  color:#e5e5e5;
+}
+
+.modal-footer {
+  background-color: #e5e5e5;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.dropdown-menu {
+  border: 1px solid $brand-primary;
+}
+
+.btn.btn-default:hover,
+.nav > li > a:hover,
+.datepicker .prev:hover, 
+.datepicker .datepicker-switch:hover, 
+.datepicker .next:hover, 
+.datepicker thead tr th.dow:hover,
+.datepicker table tr td.day:hover,
+.datepicker table tr td span.month:hover,
+.datepicker table tr td span.year:hover,
+.datepicker tfoot tr th:hover {
+  background: $brand-primary; //cornflowerblue;
+  color: #fff;
+}
+
+select option {
+  color: $text-color;
+}
+
+@media screen and (min-width: 992px) {
+  
+  #main-area > .sidebar {
+    display: none !important; 
+  }
+
+  .container-fluid {
+    padding: 0;
+  }
+
+  .container-fluid > .navbar-header,
+  .container-fluid > .navbar-collapse {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  
+  #main-area {
+    display: block !important; 
+  }
+  
+  #main-content {
+    width: 100%;
+    padding-left: 199px; // + border-left: 1px = 200px;
+  }
+
+  .hidden-md {
+    display: inline-block !important;  
+  } 
+
+  .visible-xs {
+    display: contents !important;
+  }
+
+  .visible-md-inline,
+  .visible-md-inline-block {
+    display: none !important;
+  }   
+  
+  .navbar {
+    position: fixed;
+    float: none;
+    width: 200px;
+    height: 100%;
+    background: url(../images/clouds.jpg) left top no-repeat;
+    background-size: 200px 100%;
+  }
+
+  .navbar-right {
+    float: none !important;
+    padding-left: 0;
+  }
+
+  .navbar-right .dropdown-menu {
+    right: auto;
+    left: 0;
+  }  
+
+  .navbar-nav > ul {
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+  }
+
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    width: 200px;
+  }
+
+  .navbar-nav > li > .dropdown-menu {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px; 
+  }
+
+  .navbar-nav {
+    margin-top: 10px !important;
+  }
+
+}
