@@ -62,12 +62,16 @@ body *:focus {
   color: #fff;
 }
 
+.label {
+  font-size: 82.5%;
+}
+
 .label.draft {
   background-color: #8a8a8a; 
 }
 
 .label.rejected {
-  background-color: #b73d3d; 
+  background-color: #ee5f5b; // #b73d3d; 
 }
 
 .label.canceled {
