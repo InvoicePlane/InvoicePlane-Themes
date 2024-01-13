@@ -1,0 +1,207 @@
+/*
+|   =========================================================
+|   Custom styles
+|   =========================================================
+*/
+
+a:hover, a:active, a:focus {
+  outline: 0;
+  text-decoration: none;
+}
+
+body *:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.form-control, .panel {
+  box-shadow: none;
+}
+
+#item_table {
+  .input-group {
+    padding-bottom: 0.5rem;
+  }
+
+  .ig-addon-aligned {
+    width: 10rem;
+    text-align: right;
+  }
+
+  select {
+    padding-left: 6px;
+  }
+
+  textarea.h135rem {
+    height: 13.5rem;
+  }
+}
+
+.mb-1 {
+  margin-bottom: 0.5rem;
+}
+
+// Added ------------------------------
+@import "bootswatch";
+
+.help-block{
+  color: $gray-light;
+}
+
+.btn-default:hover, 
+.btn-default:focus {
+  color: #fff;
+}
+
+.btn-success {
+  background-image: linear-gradient(#58a959, #488649 100%, #58a959);
+}  
+
+.btn-success:hover {
+  background-image: linear-gradient(#2f7d2f, #379337, #2f7d2f);
+  color: #fff;
+}
+
+.label {
+  font-size: 82.5%;
+}
+
+.label.draft {
+  background-color: #8a8a8a; 
+}
+
+.label.rejected {
+  background-color: #ee5f5b; // #b73d3d; 
+}
+
+.label.canceled {
+  background-color: #3e444c; 
+}
+
+.canceled {
+  color: #000;
+}
+
+.sidebar li a:hover {
+  color: #fff;
+  background-color: #000;
+} 
+
+.form-control {
+  background-color: $gray;
+  color: $text-color;
+}
+
+.form-control:focus {
+  color: #fff;
+}
+
+.datepicker table {
+  background: $gray;
+}
+
+.datepicker thead tr th,
+.datepicker tfoot tr th {
+  background: $gray-dark;
+  color: $text-color;
+  border-radius: 0;
+}
+
+.datepicker .prev:hover, 
+.datepicker .datepicker-switch:hover, 
+.datepicker .next:hover, 
+.datepicker thead tr th.dow:hover,
+.datepicker table tr td.day:hover,
+.datepicker table tr td span.month:hover,
+.datepicker table tr td span.year:hover,
+.datepicker tfoot tr th:hover {
+  background: $gray-darker;
+  color: #fff;
+}
+
+select option {
+  color: $text-color;
+}
+
+@media screen and (min-width: 992px) {
+  
+  #main-area > .sidebar {
+    display: none !important; 
+  }
+
+  .container-fluid {
+    padding: 0;
+  }
+
+  .container-fluid > .navbar-header,
+  .container-fluid > .navbar-collapse {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  
+  #main-area {
+    display: block !important; 
+  }
+  
+  #main-content {
+    width: 100%;
+    padding-left: 199px; // + border-left: 1px = 200px;
+  }
+
+  .hidden-md {
+    display: inline-block !important;  
+  } 
+
+  .visible-xs {
+    display: contents !important;
+  }
+
+  .visible-md-inline,
+  .visible-md-inline-block {
+    display: none !important;
+  }   
+  
+  .navbar {
+    position: fixed;
+    float: none;
+    width: 200px;
+    height: 100%;
+    background: url(../images/mandarin.jpg) left top no-repeat;
+    background-size: 200px 100%;
+  }
+
+  .navbar-right {
+    float: none !important;
+    padding-left: 0;
+  }
+
+  .navbar-right .dropdown-menu {
+    right: auto;
+    left: 0;
+  }  
+
+  .navbar-nav > ul {
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+  }
+
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    width: 200px;
+  }
+
+  .navbar-nav > li > .dropdown-menu {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px; 
+  }
+
+  .navbar-nav {
+    margin-top: 10px !important;
+  }
+
+}

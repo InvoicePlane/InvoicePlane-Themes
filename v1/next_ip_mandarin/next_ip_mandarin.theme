@@ -1,0 +1,6 @@
+TITLE='Next IP Mandarin (by Verony)'
+DESCRIPTION='A (second) dark gray theme, this time with a left sidebar and a mandarin (duck), for InvouicePlane.'
+AUTHOR='Verony.makesIT'
+LICENSE='MIT'
+REQUIRES='1.6.0'
+TESTED_WITH='1.6.1'
